@@ -18,8 +18,7 @@ Bundle 'rstacruz/sparkup', {'rtp': 'vim'}
 Bundle 'bling/vim-airline'
 Bundle 'tomasr/molokai'
 Bundle 'tpope/vim-fugitive'
-
-
+Bundle 'Lokaltog/powerline-fonts'
 "Bundle 'airblade/vim-gitgutter'
 
 if has('gui_running')
