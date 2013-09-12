@@ -18,12 +18,12 @@ Bundle 'rstacruz/sparkup', {'rtp': 'vim'}
 Bundle 'bling/vim-airline'
 Bundle 'tomasr/molokai'
 Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/powerline-fonts'
-"Bundle 'airblade/vim-gitgutter'
+Bundle 'Lokaltog/powerline-fonts'   " fc-cache -vf ~/.fonts
 
 if has('gui_running')
   set guifont=Inconsolata\ for\ Powerline
   let g:airline_powerline_fonts = 1
+  set encoding=utf-8
 endif
 
 colorscheme molokai
