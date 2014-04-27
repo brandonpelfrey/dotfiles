@@ -21,14 +21,12 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/powerline-fonts'   
 
 " Update fonts using: fc-cache -vf ~/.fonts
-
 if has('gui_running')
   set guifont=Inconsolata\ for\ Powerline
   let g:airline_powerline_fonts = 1
   set encoding=utf-8
 endif
 
-colorscheme molokai
 set background=dark
 
 filetype plugin indent on
