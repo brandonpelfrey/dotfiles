@@ -9,21 +9,21 @@ set shiftwidth=2
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
-Bundle 'lepture/vim-css'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim'}
-Bundle 'bling/vim-airline'
-Bundle 'tomasr/molokai'
-Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/powerline-fonts'   
+Plugin 'gmarik/vundle'
+Plugin 'lepture/vim-css'
+Plugin 'rstacruz/sparkup', {'rtp': 'vim'}
+Plugin 'bling/vim-airline'
+Plugin 'tomasr/molokai'
+Plugin 'tpope/vim-fugitive'
+
+call vundle#end()
+filetype plugin indent on
 
 " Update fonts using: fc-cache -vf ~/.fonts
 if has('gui_running')
-  set guifont=Inconsolata\ for\ Powerline
-  let g:airline_powerline_fonts = 1
   set encoding=utf-8
 endif
 
